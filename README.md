@@ -3,7 +3,7 @@
   <p><strong>Enterprise-grade WebRTC / RTSP / HLS Player with 8 Zero-Code Online Tools</strong></p>
 
   [![Version](https://img.shields.io/badge/version-v3.3.0-blue.svg)]()
-  [![License](https://img.shields.io/badge/license-Commercial-red.svg)]()
+  [![License](https://img.shields.io/badge/license-Free%20(inc.%20commercial)-brightgreen.svg)]()
 
   [English](#english-version) | [简体中文](#chinese-version)
 </div>
