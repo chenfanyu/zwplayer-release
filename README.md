@@ -22,7 +22,7 @@ This repository (`zwplayer-release`) is dedicated to distributing the compiled a
 - 🛡️ **Enterprise DRM & Anti-Screen Recording**: Built-in dynamic marquee and tile watermarks with millisecond real-time rendering. Inject custom user data for precise leak tracing.
 - 💡 **Interactive Video Elements**: Move beyond one-way viewing. Overlay quizzes, forms, branching choices, and 13 other dynamic nodes directly onto your videos.
 - 🧩 **Cross-Framework Support**: Written in pure vanilla JS with official wrappings for **Vue 2/3** and **React**, featuring robust CSS isolation.
-- 🔍 **Subtitle Engine & Full-Text Search**: Render dual-track subtitles (VTT/SRT/BCC/JSON) and allow users to search through dialogues to jump to specific scenes instantly.
+- 🔍 **Smart Multi-Track Subtitles & Real-Time API Translation**: An innovative HLS embedded-subtitle pre-download & extraction technique seamlessly fuses with SRT/VTT/BCC external tracks (multi-track loading, free primary/secondary assignment); natively connects to a translation API for dynamic bilingual display, with global seamless indexing for instant dialogue seeking; per-track runtime styling and per-result loop — perfectly empowering language learning, paid knowledge content, and global go-to-market scenarios.
 
 ### 🛠️ The 8 Visual Online Tools Ecosystem
 
@@ -93,7 +93,7 @@ Please visit the [official documentation](https://www.zwplayer.com/) for the lat
 - 🛡️ **企业级防盗防录屏**：内置动态跑马灯水印 (Marquee Watermark) 与全屏平铺水印，毫秒级实时渲染，支持注入自定义用户信息以进行精准防录屏溯源。
 - 💡 **双向交互式视频体验**：突破单向观看！原生支持在视频内叠加测验题、表单、分支选项、网页嵌入等 13 种动态节点。
 - 🧩 **现代框架原生适配**：采用纯 JavaScript 编写，原生提供 **Vue 2/3** 与 **React** 组件接入方式，彻底解决样式污染。
-- 🔍 **全格式字幕与检索**：支持双轨外挂字幕 (VTT/SRT/BCC/JSON)，内建全局字幕与章节实时检索面板，台词秒级跳转。
+- 🔍 **智能多轨字幕与实时 API 翻译**：创新引入 HLS 内嵌字幕预下载提取技术，无缝融合 SRT/VTT/BCC 外挂字幕（多轨加载、主/副轨自由分配）；原生对接翻译 API 实现动态双语，配合全局无感索引定位台词秒级跳转；逐轨运行时样式调节与逐条循环——完美赋能外语学习、知识付费与跨国出海场景。
 
 ### 🛠️ 完善的在线工具生态 (8 大零代码可视化工具)
 
