@@ -2,7 +2,7 @@
   <h1>🚀 ZWPlayer - Full-Stack Interactive HTML5 Video Player Ecosystem</h1>
   <p><strong>Enterprise-grade WebRTC / RTSP / HLS Player with 8 Zero-Code Online Tools</strong></p>
 
-  [![Version](https://img.shields.io/badge/version-v3.3.0-blue.svg)]()
+  [![Version](https://img.shields.io/badge/version-v3.3.1-blue.svg)]()
   [![License](https://img.shields.io/badge/license-Free%20(inc.%20commercial)-brightgreen.svg)]()
 
   [English](#english-version) | [简体中文](#chinese-version)
@@ -23,6 +23,12 @@ This repository (`zwplayer-release`) is dedicated to distributing the compiled a
 - 💡 **Interactive Video Elements**: Move beyond one-way viewing. Overlay quizzes, forms, branching choices, and 13 other dynamic nodes directly onto your videos.
 - 🧩 **Cross-Framework Support**: Written in pure vanilla JS with official wrappings for **Vue 2/3** and **React**, featuring robust CSS isolation.
 - 🔍 **Smart Multi-Track Subtitles & Real-Time API Translation**: An innovative HLS embedded-subtitle pre-download & extraction technique seamlessly fuses with SRT/VTT/BCC external tracks (multi-track loading, free primary/secondary assignment); natively connects to a translation API for dynamic bilingual display, with global seamless indexing for instant dialogue seeking; per-track runtime styling and per-result loop — perfectly empowering language learning, paid knowledge content, and global go-to-market scenarios.
+
+### 🆕 What's New in v3.3.1
+
+- **Audio Tracks**: Multi-language audio track switching + TTS subtitle-to-speech
+- **VR / 360° Panoramic Playback**: Interactive panoramic video with drag/touch/keyboard controls, live view settings panel, and auto-detection of 2:1 panoramic videos
+- **Control Bar Polish**: Streamlined control bar UI with refined time progress, speed controller, and playback indicators
 
 ### 🛠️ The 8 Visual Online Tools Ecosystem
 
@@ -94,6 +100,12 @@ Please visit the [official documentation](https://www.zwplayer.com/) for the lat
 - 💡 **双向交互式视频体验**：突破单向观看！原生支持在视频内叠加测验题、表单、分支选项、网页嵌入等 13 种动态节点。
 - 🧩 **现代框架原生适配**：采用纯 JavaScript 编写，原生提供 **Vue 2/3** 与 **React** 组件接入方式，彻底解决样式污染。
 - 🔍 **智能多轨字幕与实时 API 翻译**：创新引入 HLS 内嵌字幕预下载提取技术，无缝融合 SRT/VTT/BCC 外挂字幕（多轨加载、主/副轨自由分配）；原生对接翻译 API 实现动态双语，配合全局无感索引定位台词秒级跳转；逐轨运行时样式调节与逐条循环——完美赋能外语学习、知识付费与跨国出海场景。
+
+### 🆕 v3.3.1 新增功能
+
+- **多音轨**：多语言音轨动态切换，支持 TTS 字幕转配音
+- **VR / 360° 全景播放**：交互式全景视频，支持鼠标拖拽/触摸/键盘控制，内置视角设置面板，自动检测 2:1 全景视频
+- **控制条优化**：简洁化控制条界面，优化时间进度条、倍速控制器与播放状态指示
 
 ### 🛠️ 完善的在线工具生态 (8 大零代码可视化工具)
 
