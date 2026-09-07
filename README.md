@@ -2,7 +2,7 @@
   <h1>🚀 ZWPlayer - Full-Stack Interactive HTML5 Video Player Ecosystem</h1>
   <p><strong>Enterprise-grade WebRTC / RTSP / HLS Player with 8 Zero-Code Online Tools</strong></p>
 
-  [![Version](https://img.shields.io/badge/version-v3.3.1-blue.svg)]()
+  [![Version](https://img.shields.io/badge/version-v3.3.2-blue.svg)]()
   [![License](https://img.shields.io/badge/license-Free%20(inc.%20commercial)-brightgreen.svg)]()
 
   [English](#english-version) | [简体中文](#chinese-version)
@@ -24,11 +24,13 @@ This repository (`zwplayer-release`) is dedicated to distributing the compiled a
 - 🧩 **Cross-Framework Support**: Written in pure vanilla JS with official wrappings for **Vue 2/3** and **React**, featuring robust CSS isolation.
 - 🔍 **Smart Multi-Track Subtitles & Real-Time API Translation**: An innovative HLS embedded-subtitle pre-download & extraction technique seamlessly fuses with SRT/VTT/BCC external tracks (multi-track loading, free primary/secondary assignment); natively connects to a translation API for dynamic bilingual display, with global seamless indexing for instant dialogue seeking; per-track runtime styling and per-result loop — perfectly empowering language learning, paid knowledge content, and global go-to-market scenarios.
 
-### 🆕 What's New in v3.3.1
+### 🆕 What's New in v3.3.2
 
-- **Audio Tracks**: Multi-language audio track switching + TTS subtitle-to-speech
-- **VR / 360° Panoramic Playback**: Interactive panoramic video with drag/touch/keyboard controls, live view settings panel, and auto-detection of 2:1 panoramic videos
-- **Control Bar Polish**: Streamlined control bar UI with refined time progress, speed controller, and playback indicators
+- **Bumper Ads**: Pre-roll/post-roll ad insertion with configurable skip strategies (force view, immediate skip, countdown skip), click-through landing pages, and clean ad playback UI
+- **Playback Modes**: `mode` config enables four forms — standard video, preview (hover to peek), music (vinyl cover + lyrics + spectrum), and auto (auto-switch between video/audio in mixed playlists)
+- **Cross-Video Subtitle Search**: Search subtitles by keyword across all videos in a playlist — instantly locate which episode a line appears in and jump to the exact timestamp
+- **DASH Embedded Subtitle Pre-Download**: Automatically pre-download DASH embedded subtitles (stpp/wvtt) for full-text search, translation, and export — zero config required
+- **Unified UI Redesign**: Pull-up thumbnail strip for precise seeking, modern control bar, home→sub-page settings menu, mobile Bottom Sheets, number-key percentage seeking
 
 ### 🛠️ The 8 Visual Online Tools Ecosystem
 
@@ -101,11 +103,13 @@ Please visit the [official documentation](https://www.zwplayer.com/) for the lat
 - 🧩 **现代框架原生适配**：采用纯 JavaScript 编写，原生提供 **Vue 2/3** 与 **React** 组件接入方式，彻底解决样式污染。
 - 🔍 **智能多轨字幕与实时 API 翻译**：创新引入 HLS 内嵌字幕预下载提取技术，无缝融合 SRT/VTT/BCC 外挂字幕（多轨加载、主/副轨自由分配）；原生对接翻译 API 实现动态双语，配合全局无感索引定位台词秒级跳转；逐轨运行时样式调节与逐条循环——完美赋能外语学习、知识付费与跨国出海场景。
 
-### 🆕 v3.3.1 新增功能
+### 🆕 v3.3.2 新增功能
 
-- **多音轨**：多语言音轨动态切换，支持 TTS 字幕转配音
-- **VR / 360° 全景播放**：交互式全景视频，支持鼠标拖拽/触摸/键盘控制，内置视角设置面板，自动检测 2:1 全景视频
-- **控制条优化**：简洁化控制条界面，优化时间进度条、倍速控制器与播放状态指示
+- **贴片广告**：片前/片后插入宣传片，支持强制观看、立即可跳、倒计时可跳三种跳过策略，支持点击跳转落地页，广告界面清爽不打扰
+- **播放模式**：通过 `mode` 配置一键切换四种形态——标准视频、预览模式（悬停即播）、音乐模式（唱片封面 + 歌词 + 频谱）、自动模式（混合列表视频/音频自动切换）
+- **跨视频字幕搜索**：在播放列表中跨视频搜索字幕关键词，快速定位台词出现在哪一集的什么时间，点击直达
+- **DASH 内嵌字幕预下载**：自动预下载 DASH 内嵌字幕（stpp/wvtt），搜索、翻译、导出全面可用，零配置即生效
+- **界面统一改版**：上拉缩略图条精确定位画面、现代化控制栏、首页→子页设置菜单、移动端 Bottom Sheet、数字键百分比跳转
 
 ### 🛠️ 完善的在线工具生态 (8 大零代码可视化工具)
 
